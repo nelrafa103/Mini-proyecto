@@ -1,9 +1,8 @@
 
-def triangulo_de_fibonnaci(number): 
- result =  number
- if number <= 0:
-  return result
+def fibonnaci_triangle(number): 
+ print (number,end = ' ')
+ if number <= 0 or number == 1:
+  return number
  elif number > 1:
-  result = triangulo_de_fibonnaci(number - 1) + triangulo_de_fibonnaci(number - 2)  
- return result
-print (triangulo_de_fibonnaci(1))
+  return fibonnaci_triangle(number - 1) + fibonnaci_triangle(number - 2)
+print (fibonnaci_triangle(6))
