@@ -6,3 +6,6 @@ def fibonnaci_triangle(number):
  elif number > 1:
   return fibonnaci_triangle(number - 1) + fibonnaci_triangle(number - 2)
 print (fibonnaci_triangle(6))
+
+
+def pascal_triangle(number)
