@@ -9,6 +9,10 @@ try:
    result = fibonnaci_triangle(number - 1) + fibonnaci_triangle(number - 2)
    if result not in list_1:
     list_1.append(result)
+    if list_1.count(1) < 2:
+     list_1.append(1)
+   if len(list_1) == entry:
+    return list_1
    return result
  print (fibonnaci_triangle(entry))
 except:
