@@ -1,11 +1,12 @@
-try:
- entry = int(input())
- def pascal_triangle(number):
-  print (number)
-  if number <= 0:
-   return 
-  else:
-   return pascal_triangle(number - 1) + pascal_triangle(number - 2)
- print (pascal_triangle(entry))
-except:
- print ('Debe ingresar el numero de filas en numeros reales')
+while True:
+ try:
+  print ('Enter a real number that you want to get the Pascal_triangle')
+  entry = int(input())
+  def pascal_triangle(number):
+   if number <= 0:
+    return number
+   else:
+    for x in range(number)
+  print (pascal_triangle(entry))
+ except:
+  print ('You must to enter a real number')

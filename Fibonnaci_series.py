@@ -1,7 +1,7 @@
 import os
-print ('Enter a real number to get your fibonacci sequence')
 while True:
  try:
+  print ('Enter a real number to get your fibonacci sequence')
   entry = int(input())
   if entry < 0:
    entry *= -1
