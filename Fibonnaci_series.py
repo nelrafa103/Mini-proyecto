@@ -1,13 +1,11 @@
 
 print ('Enter a real number to get your fibonacci sequence')
-while True:
- try:
+try:
   entry = int(input())
   if entry < 0:
    entry *= -1
   list_1 = []
   def fibonnaci_triangle(number): 
-   os.system('clear')
    if number <= 0 or number == 1:
     return number
    elif number > 1:
@@ -20,5 +18,5 @@ while True:
      return list_1
     return result
   print (fibonnaci_triangle(entry))
- except:
+except:
   print ('it not a correct value'' You must to enter a number value')
