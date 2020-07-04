@@ -1,4 +1,4 @@
-import os 
+
 print ('Enter a real number to get your fibonacci sequence')
 while True:
  try:
