@@ -17,7 +17,7 @@ while True:
      r += 1
     else:
      list_1.append(1)
-   print (list_1)
+   print ( ' ' * number ,list_1)
    return pascal_triangle(number - 1,i + 1,list_1)
   print (pascal_triangle(entry + 1,0,[]))
  except:
