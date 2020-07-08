@@ -11,6 +11,7 @@ while True:
                 return
             else:
                 for x in range(i):
+                    
                     if len(list_1) == 0 or len(list_1) == i:
                         list_1.append(1)
                     else:
