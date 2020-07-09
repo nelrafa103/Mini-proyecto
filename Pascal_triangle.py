@@ -6,17 +6,15 @@ while True:
         os.system('clear')
 
         def pascal_triangle(number, i, list_2):
-            list_1, r = [], 0
+            list_1 = []
             if number <= 0:
                 return
             else:
-                for x in range(i):
-                    
+                for counter in range(i):
                     if len(list_1) == 0 or len(list_1) == i:
                         list_1.append(1)
                     else:
-                        list_1.append(sum(list_2[r - 1:r + 1]))
-                    r += 1
+                        list_1.append(sum(list_2[counter - 1:counter + 1]))
                 else:
                     list_1.append(1)
             print(' ' * number, list_1)
