@@ -20,6 +20,6 @@ while True:
             print(' ' * number, list_1)
             return pascal_triangle(number - 1, i + 1, list_1)
 
-        print(pascal_triangle(entry + 1, 0, []))
+        pascal_triangle(entry + 1, 0, [])
     except:
         print('You must to enter a real number')
